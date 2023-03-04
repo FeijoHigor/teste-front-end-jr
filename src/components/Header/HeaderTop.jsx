@@ -1,5 +1,3 @@
-import React from "react";
-
 import './HeaderTop.scss'
 
 import shildCheck from '../../images/headerImages/icons/ShieldCheck.svg'

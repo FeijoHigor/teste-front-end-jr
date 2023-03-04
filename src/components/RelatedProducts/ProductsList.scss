@@ -39,19 +39,6 @@
     }
 }
 
-.arrow-desactive {
-    pointer-events: none;
-    path {
-        fill: #a4a4a4;
-    }
-}
-
-.arrow-desactive:hover {
-    path {
-        fill: #a4a4a4;
-    }
-}
-
 .right {
     left: calc(100% + 30px);
     top: 50%;

@@ -1,5 +1,3 @@
-import React from "react"
-
 import './MainHeaderContent.scss'
 
 import logo from '../../images/headerImages/logo.svg'
