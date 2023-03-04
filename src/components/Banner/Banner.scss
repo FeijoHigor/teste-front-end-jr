@@ -1,6 +1,10 @@
+.banner-width {
+    height: 390px;
+}
+
 .banner {
     background: url('../../images/Banner.png');
-    width: 100vw;
+    width: 100%;
     position: absolute;
     left: 0;
     display: flex;
