@@ -8,6 +8,52 @@
     padding: 20px;
     padding-top: 20px;
     justify-content: flex-start;
-    overflow: hidden;
+    overflow-x: auto;
     background: none;
+    position: relative;
+    padding-right: -290%;
+    scroll-behavior: smooth;
+
+}
+
+.products-list::-webkit-scrollbar {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -40px;
+    background: none;
+    border: none;
+    path {
+        transition: 0.2s;
+        fill: #3F3F40;
+    }
+}
+
+.arrow:hover {
+    path {
+        fill: #141414;
+    }
+}
+
+.arrow-desactive {
+    pointer-events: none;
+    path {
+        fill: #a4a4a4;
+    }
+}
+
+.arrow-desactive:hover {
+    path {
+        fill: #a4a4a4;
+    }
+}
+
+.right {
+    left: calc(100% + 30px);
+    top: 50%;
+    transform: rotate(-180deg) translate( 0, +50%);
 }
