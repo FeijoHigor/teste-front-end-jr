@@ -1,0 +1,75 @@
+.brand-carousel {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 1280px;
+    padding-top: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    background: none;
+    position: relative;
+    scroll-behavior: smooth;
+    padding: 25px 0;
+
+    li {
+        box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+        width: 211px;
+        height: 211px;
+        border-radius: 50%;
+        background-color: #fff;
+        flex: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        transition: 0.2s;
+        cursor: pointer;
+
+        img {
+            width: 172px;
+            padding-top: 10px;
+        }
+    }
+
+    li:hover {
+        box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.192);
+
+    }
+
+}
+
+.brand-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.brand-arrow {
+    position: absolute;
+    top: 50%;
+    transform: rotate(-180deg) translate(0, +50%);
+    left: -70px;
+    background: none;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+
+    path {
+        transition: 0.2s;
+        fill: #0080BF;
+    }
+}
+
+.brand-arrow:hover {
+    path {
+        fill: #016090;
+    }
+}
+
+.brand-right {
+    left: calc(100% + 20px);
+    top: 50%;
+    transform: translate( 0, -50%);
+}

@@ -11,7 +11,6 @@
     overflow-x: auto;
     background: none;
     position: relative;
-    padding-right: -290%;
     scroll-behavior: smooth;
 
 }
@@ -39,8 +38,9 @@
     }
 }
 
+
 .right {
-    left: calc(100% + 30px);
+    left: calc(100% + 20px);
     top: 50%;
     transform: rotate(-180deg) translate( 0, +50%);
 }

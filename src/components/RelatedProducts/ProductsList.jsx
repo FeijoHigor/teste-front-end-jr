@@ -19,7 +19,7 @@ function ProductsList(props) {
 
     return (
         <div style={{position: 'relative'}}>
-            <button className={`arrow left ${7 <= 4 ? 'arrow-desactive' : ''}`} onClick={() => moveList('left')} >
+            <button className={`arrow left`} onClick={() => moveList('left')} >
                 <svg width="20" height="34" viewBox="0 0 20 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 3.03939L16.9666 0L0 17L16.9666 34L20 30.9606L6.06684 17L20 3.03939Z"/>
                 </svg>
@@ -32,7 +32,7 @@ function ProductsList(props) {
                     <div>Erro ao carregar os produtos</div>
                 )}
             </ul>
-            <button className={`arrow right ${6 >= 10 ? 'arrow-desactive' : ''}`} onClick={() => moveList('right')}>
+            <button className={`arrow right`} onClick={() => moveList('right')}>
                 <svg width="20" height="34" viewBox="0 0 20 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 3.03939L16.9666 0L0 17L16.9666 34L20 30.9606L6.06684 17L20 3.03939Z"/>
                 </svg>
