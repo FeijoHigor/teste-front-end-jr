@@ -32,7 +32,7 @@ function Categorie(props) {
 function Categories(props) {
     return (
         <ul className="categories">
-            {allCategories.map((e, i) => <Categorie name={e.categorieName} img={e.img} selected={e.selected} />)}
+            {allCategories.map((e, i) => <Categorie key={i} name={e.categorieName} img={e.img} selected={e.selected} />)}
         </ul>  
     )
 }
