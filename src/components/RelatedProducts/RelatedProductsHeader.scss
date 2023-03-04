@@ -1,5 +1,5 @@
 .related-products-header {
-    padding-bottom: 16px;
+    padding-bottom: 12px;
 }
 
 .related-products-header-title {
@@ -24,16 +24,18 @@
 }
 
 .related-products-categories {
+    width: 1280px;
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-between;
     margin: 5px 0;
+    border-right: 1px solid #BDBDBD;
+    border-left: 1px solid #BDBDBD;
 
     li {
         width: 16.6%;
         height: 40px;
-        //border: 1px solid #BDBDBD;
         border-right: solid #BDBDBD 1px;
         border-left: solid #BDBDBD 1px;
         border-top: 2px solid #BDBDBD;

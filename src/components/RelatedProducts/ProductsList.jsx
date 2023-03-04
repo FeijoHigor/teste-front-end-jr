@@ -10,9 +10,9 @@ function ProductsList(props) {
         <ul className="products-list">
             {loading && <div>carregando...</div>}
             {products?.success ? products?.products.map((e, i) => 
-                    <Product productData={e} style={i == 1 ? "margin-left: 0;" : "margin-left: 62px;"} />
+                    <Product key={(i)} productData={e} styleFirst={i == 0 ? 0 : 66.6} />
                 ) : (
-                <div>erro ao carregar os produtos</div>
+                <div>Erro ao carregar os produtos</div>
             )}
         </ul>
     )

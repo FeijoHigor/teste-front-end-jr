@@ -4,7 +4,7 @@ import RelatedProductsHeader from './RealatedProductHeader.jsx'
 
 function RelatedProducts(props) {
     return (
-        <section>
+        <section style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
             <RelatedProductsHeader options={props.options} />
             <ProductsList />
         </section>
