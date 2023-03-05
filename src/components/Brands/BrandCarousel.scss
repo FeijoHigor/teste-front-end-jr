@@ -47,7 +47,7 @@
 .brand-arrow {
     position: absolute;
     top: 50%;
-    transform: rotate(-180deg) translate(0, +50%);
+    transform: translate(0, -50%);
     left: -70px;
     background: none;
     border: none;
@@ -55,6 +55,13 @@
     border-radius: 50%;
     width: 56px;
     height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        transform: rotate(180deg);
+    }
 
     path {
         transition: 0.2s;
@@ -72,4 +79,7 @@
     left: calc(100% + 20px);
     top: 50%;
     transform: translate( 0, -50%);
+    svg {
+        transform: rotate(0);
+    }
 }

@@ -1,10 +1,12 @@
 import './App.scss'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Banner from './components/Banner/Banner'
 import Categories from './components/Categories/Categories'
 import RelatedProducts from './components/RelatedProducts/RelatedProducts'
 import DoubbleCard from './components/Cards/DoubbleCard'
 import Brands from './components/Brands/Brands'
+import ProductModal from './components/ProductModal/ProductModal'
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <DoubbleCard cardData={[{cardType: 'medium', title: 'Produtos', description: 'Lorem ipsum dolor sit amet, consectetur', btnText: 'Confira'}]} />
       <Brands />
       <RelatedProducts />
+      <Footer />
     </div>
   )
 }
