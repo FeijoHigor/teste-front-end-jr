@@ -44,3 +44,11 @@
     top: 50%;
     transform: rotate(-180deg) translate( 0, +50%);
 }
+
+.error-message {
+    margin: auto;
+    h4 {
+        color: #3F3F40;
+        font-size: 30px;
+    }
+}

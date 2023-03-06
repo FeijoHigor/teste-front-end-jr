@@ -19,6 +19,7 @@ const allCategories = [
 ]
 
 function Categorie(props) {
+
     return (
         <li className={`categorie-card ${props.selected == true ? 'selected' : ''}`}>
            <div>
