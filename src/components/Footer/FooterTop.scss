@@ -5,12 +5,34 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    background-color: #2a2a2a;
+
+    @media (max-width: 1450px) {
+        width: 1000px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    @media (max-width: 1100px) {
+        width: 750px;
+    }
     
     .footer-content-lists {
         padding-top: 59px;
         display: flex;
         width: 50%;
         justify-content: space-between;
+        background-color: #2a2a2a;
+
+
+        @media (max-width: 1450px) {
+            width: 100%;
+        }
+    
+        @media (max-width: 1100px) {
+            width: 750px;
+        }
         
         .footer-content-lists-column {
             
@@ -56,6 +78,10 @@
         height: 260px;
         background-color: #fff;
         border-radius: 10px;
+
+        @media (max-width: 1450px) {
+            margin: 30px 0;
+        }
 
         h3 {
             margin: 40px 0 0 0;

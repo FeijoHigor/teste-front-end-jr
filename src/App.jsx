@@ -6,7 +6,6 @@ import Categories from './components/Categories/Categories'
 import RelatedProducts from './components/RelatedProducts/RelatedProducts'
 import DoubbleCard from './components/Cards/DoubbleCard'
 import Brands from './components/Brands/Brands'
-import ProductModal from './components/ProductModal/ProductModal'
 
 function App() {
   return (

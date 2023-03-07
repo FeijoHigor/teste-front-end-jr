@@ -1,0 +1,11 @@
+.doubble-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    @media (max-width: 1450px) {
+        flex-direction: column;
+      }
+      
+}
