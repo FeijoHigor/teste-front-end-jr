@@ -12,9 +12,9 @@ function BrandsCarousel(props) {
 
     const moveList = (side) => {
         if(side == 'left') {
-            brandsListRef.current.scrollLeft -= 300
+            brandsListRef.current.scrollLeft -= 600
         }else if(side == 'right') {
-            brandsListRef.current.scrollLeft += 300
+            brandsListRef.current.scrollLeft += 600
         }
     }
 

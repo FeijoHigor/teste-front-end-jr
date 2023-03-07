@@ -8,7 +8,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/FeijoHigor/teste-front-end-jr.git1>
+$ git clone https://github.com/FeijoHigor/teste-front-end-jr.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd teste-front-end-jr
@@ -19,5 +19,5 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# Será disponibilizado um link para acessar o projeto <http://localhost:5173>
+# Será disponibilizado um link local para acessar o projeto <http://localhost:5173>
 ```
